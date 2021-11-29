@@ -1,0 +1,8 @@
+@media screen and (max-width: 419px) {
+  .row {
+    max-width: 419px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
