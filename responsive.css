@@ -13,14 +13,9 @@
   #why {
     background-color: #f2f2cd;
   }
+
   #lezioni.container .row > .left,
-  #lezioni.container .row > .right {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-  }
+  #lezioni.container .row > .right,
   #steps.container .row > .left,
   #steps.container .row > .central,
   #steps.container .row > .right {
