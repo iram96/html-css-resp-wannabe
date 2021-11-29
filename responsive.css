@@ -5,4 +5,8 @@
     flex-wrap: wrap;
     text-align: center;
   }
+  #lezioni.container .row > .left,
+  #lezioni.container .row > .right {
+    width: 100%;
+  }
 }
