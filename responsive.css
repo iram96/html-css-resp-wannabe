@@ -3,14 +3,14 @@
     margin: 0;
   }
   .container .row {
-    max-width: 419px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
     justify-content: center;
     margin-top: 0;
   }
-  #lezioni {
+  #lezioni,
+  #why {
     background-color: #f2f2cd;
   }
   #lezioni.container .row > .left,
@@ -20,5 +20,20 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+  }
+  #steps.container .row > .left,
+  #steps.container .row > .central,
+  #steps.container .row > .right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  img[src*="search.svg"] {
+    width: auto;
+    margin: 0 auto;
+  }
+  .container img {
+    height: 150px;
   }
 }
