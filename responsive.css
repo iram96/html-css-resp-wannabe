@@ -4,6 +4,10 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
+  }
+  #lezioni {
+    background-color: #f2f2cd;
   }
   #lezioni.container .row > .left,
   #lezioni.container .row > .right {
